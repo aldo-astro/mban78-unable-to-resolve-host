@@ -26,7 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class MainActivity : ComponentActivity() {
 
     companion object {
-        const val BASE_URL = "https://b9db-8-38-147-66.ap.ngrok.io/"
+        const val BASE_URL = "https://iamnotavaliddomain.xyz"
     }
 
     private fun getChucker() =

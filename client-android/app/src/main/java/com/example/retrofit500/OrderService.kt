@@ -9,9 +9,9 @@ interface OrderService {
     @GET("order200")
     suspend fun getOrder200(): Response<Order>
 
-    @GET("order500")
+    @GET("/")
     suspend fun getOrder500(): Response<Order>
 
-    @POST("order500")
+    @POST("/")
     suspend fun postOrder500(): Response<Order>
 }
